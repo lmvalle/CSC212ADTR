@@ -9,7 +9,7 @@ import org.junit.Test;
 import edu.smith.cs.csc212.adtr.real.JavaMap;
 
 public class JavaMapTest {
-
+//Make static map to reference in test
 	void assertIntEq(int x, int y) {
 		assertEquals(x,y);
 	}

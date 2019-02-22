@@ -10,7 +10,7 @@ import edu.smith.cs.csc212.adtr.real.JavaSet;
 
 
 public class JavaSetTest {
-	
+//make static setnto test 	
 	@Test
 	public void testEmpty() {
 		SetADT<String> empty = new JavaSet<>();
