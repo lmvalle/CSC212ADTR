@@ -110,6 +110,13 @@ public class JavaListTest {
 	}
 	
 	// TODO: test list remove
+	@Test
+	public void testRemoveFront() {
+		ListADT<String> data = makeFullList();
+		//returns value removed
+		data.removeFront();
+		
+	}
 	// TODO test addIndex methods.
 	
 	@Test
