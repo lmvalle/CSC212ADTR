@@ -32,13 +32,12 @@ public class JavaMapTest {
 		vari.put("A", 1);
 		assertEquals(vari.get("a"),vari.get("A"));
 	}
-//kept out @Test
-	public void testdataRemove() {
+    @Test
+	public void testRemove() {
 		MapADT<String,Integer> vari = new JavaMap<>();
-		vari.put("a",12);
-		vari.put("A", 1);
-		vari.remove("A");
-		this.assertIntEq(vari.size(), 12);
+		vari.put("a",1);
+		vari.remove("a");
+		this.assertIntEq(vari.size(),0);
 	
 	}
 	@Test
